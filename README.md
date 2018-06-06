@@ -1,3 +1,4 @@
 # iips-feedback
 feedback form 
-In progressing.
+get a feedback from student and save in text file
+and can send confirmation mail to.
