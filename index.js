@@ -36,31 +36,6 @@ app.post('/submit', (req, res) => {
         if (err) throw err;
         console.log('saved'); 
     });
-
-    
-
-
-
-   /*
-    var transporter = nodemailer.createTransport({
-        service: 'gmail',
-        auth: {
-        user: 'Your_Email',
-        pass: 'Your_Password'
-        }
-    });
-
-	var mailOptions = {
-		from: 'Your_email',
-		to: email,
-		subject: 'Feedback Form',
-		text: 'Feedback successfully submitted!'
-	};
-	transporter.sendMail(mailOptions, function(err, info){
-		if(err) console.log(err);
-		else console.log('Email sent: ' + info.response);
-	});
-            */	    
     
     res.end('Successfully Submitted!');
 });
